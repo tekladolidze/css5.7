@@ -198,6 +198,7 @@ ul{
     border-radius: 24px;
     border: 1px solid #2F2C33;
     border: 0;
+    height: 381px;
     border-radius: 12px;
     background: #191919;
     padding: 16px;
@@ -230,3 +231,108 @@ ul{
     width: 100%;
 }
 
+#Decentralized_box{
+    display: flex;
+    border-radius: 12px;
+    background: #191919;
+    padding: 16px;
+    height: 280px;
+    width: 478px;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+#decentralized_1{
+    display: flex;
+    width: 476px;
+}
+
+
+#dec_img{
+    margin-right: 20px;
+}
+
+
+#Smart_Contract_box{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 280px;
+    gap: 24px;
+    border-radius: 12px;
+    background: #191919;
+    padding: 16px;
+}
+
+h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3+p{
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+
+#Wall_of_love_conteiner{
+    gap: 32px;
+}
+
+#last_right_full_box{
+    display: flex;
+    gap: 32px;
+    width: 1040px;
+    margin-top: 24px;
+}
+
+
+.first_last_boxes{
+    display: flex;
+    width: 508px;
+    min-width: 360px;
+    height: 780px;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.six_boxes_style_{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 252px;
+    padding: 32px;
+    gap: 25px;
+    border-radius:  12px;
+    background: #191919;
+}
+
+.six_box_pp{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.div_text{
+    display: flex;
+}
+
+.img_padding{
+    padding-right: 17px;
+}
+
+.column_text{
+    display: flex;
+    flex-direction: column;
+    color: #535862;
+    font-size: 16px;
+}
