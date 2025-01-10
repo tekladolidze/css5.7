@@ -170,7 +170,7 @@ ul{
 
 #innovate_boxesssss{
     display: flex;
-    gap:24px;
+   
 }
 
 
@@ -180,7 +180,6 @@ ul{
     height: 583px;
     width: 508px;
     gap: 24px;
-   background-color: #FF371A;
     border-radius: 12px;
     padding: 16px;
 }
@@ -335,4 +334,112 @@ h3+p{
     flex-direction: column;
     color: #535862;
     font-size: 16px;
+}
+
+#thinking_box{
+    display: flex;
+    width: 1040px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: #191919;
+}
+
+
+#butt0n_conteiner{
+    display: flex;
+    max-width:  480px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+    width: 480px;
+    height: 85px;
+
+}
+
+#input_box{
+    display: flex;
+    flex-direction: column;
+}
+
+#mail_butt{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 48px;
+    color: #FFF;
+    border-radius: 12px;
+    border: 0;
+    background: #FF371A;
+
+}
+
+
+#email_style{
+    color: #717680;
+    font-size: 16px;
+    padding:  12px 14px;
+    align-items: center;
+    gap: 8px;
+    height: 48px;
+    width: 310px;
+    border-radius:  8px;
+    border: 1px solid #7A7A7A;
+}
+
+
+input+span{
+    color: #717680;
+}
+
+a{
+    color: #717680;
+}
+
+#text_title{
+    display: flex;
+    align-items: center;
+    width: 1040px;
+    height: 108px;
+    
+}
+
+#text_title_h{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800;
+    padding-right: 19px;
+}
+
+#text_title_p{
+    display: flex;
+    color: #7A7A7A;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+#price_boxes{
+    display: flex;
+    gap: 24px;
+}
+
+
+.price_cards_style{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    height: 596px;
+    width: 330px;
+    background-color: chocolate;
 }
