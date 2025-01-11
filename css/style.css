@@ -63,7 +63,7 @@ ul{
     max-width: 1040px;
     width: 100%;
     gap: 112px;
-    ;
+
 }
 
 
@@ -517,4 +517,98 @@ a{
     margin-top: 15px;
     border: 1.5px solid #FF371A;
     background: #FF371A;
+}
+
+
+
+.button_ather_style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 65px;
+    width: 300px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    background-color: #000000;
+    border: 1.5px solid #FF371A;
+}
+
+
+
+
+#plane_box{
+    display: flex;
+    gap: 82px;
+    width: 1040px;
+    height: 76px;
+}
+
+
+
+
+#first_box{
+    display: flex;
+    width: 480px;
+    height: 76px;
+}
+
+
+
+
+#last_box{
+    display: flex;
+    width: 480px;
+    height: 76px;
+}
+
+
+
+.span_type{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pwi_style{
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+}
+
+
+
+.plan_title{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.plan_pp{
+    color: #7A7A7A;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+/* foooter_conteineeeer*/
+
+#footer_box{
+
+}
+
+
+#footer_conteiner{
+    width: 1040px;
+    height: 244px;
+    background-color: aquamarine;
+}
+
+#footer_logos{
+    display: flex;
+    height: 56px;
+    margin-top: 50px;
+    width: 1040px;
+    background-color: #FF371A;
 }
