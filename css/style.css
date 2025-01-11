@@ -170,7 +170,6 @@ ul{
 
 #innovate_boxesssss{
     display: flex;
-   
 }
 
 
@@ -435,11 +434,87 @@ a{
 .price_cards_style{
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
     align-items: flex-start;
-    gap: 10px;
-    height: 596px;
+    height: 600px;
     width: 330px;
-    background-color: chocolate;
+    background: #191919;
+}
+
+.basic_plan_box_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-bottom: 2px solid #888;
+}
+
+.basic_plan_style{
+    display: flex;
+    align-items: center;
+    width: 125px;
+    padding: 5px;
+    gap: 3px;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+
+.basic_plan_span{
+    display: flex;
+    align-items: center;
+    color: #7A7A7A;
+    font-size: 16px;
+}
+
+.basic_number{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.basic_title{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.list_style{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.list_style_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.list_li{
+    display: flex;
+    color: #7A7A7A;
+    font-size: 16px;
+}
+
+.list_img{
+    display: flex;
+    padding-right: 14px;
+}
+
+.list_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 65px;
+    width: 300px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
 }
